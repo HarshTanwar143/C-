@@ -8,27 +8,33 @@
             int input = int.Parse(Console.ReadLine());
 
             int output = 0;
-            int[] rupees = new int[] {500, 100, 50, 10, 1};
-            if(input < 0)
+            int[] rupees = new int[] { 500, 100, 50, 10, 1 };
+            int[] count = new int[rupees.Length];
+
+            if (input < 0)
             {
                 output = -1;
+                Console.WriteLine("Final Count :: " + output);
+                return;
             }
-            else
+
+            for (int i = 0; i < rupees.Length; i++)
             {
-                for(int i = 0;i < rupees.Length; i++)
+                // 1400 -> 900 -->400 --> 300->200->100->0
+                while (input >= rupees[i])
                 {
-                    while(input >= rupees[i])
-                    {
-                        // 1400 -> 900 -->400 --> 300->200->100->0
-                        output += 1;
-                        input -= rupees[i];
-                    }
+                    count[i]++;
+                    output++;
+                    input -= rupees[i];
                 }
             }
-            Console.WriteLine("final count :: " + output);
+
+            for (int i = 0; i < rupees.Length; i++)
+            {
+                Console.WriteLine(rupees[i] + " - " + count[i]);
+            }
+
+            Console.WriteLine("Final Count :: " + output);
         }
     }
 }
-
-
-

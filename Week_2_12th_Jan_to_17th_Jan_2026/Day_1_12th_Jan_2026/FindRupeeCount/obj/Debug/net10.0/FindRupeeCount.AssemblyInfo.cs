@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FindRupeeCount")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07f605da0daeb4f36a7e9d94b39e22d69c230e94")]
 [assembly: System.Reflection.AssemblyProductAttribute("FindRupeeCount")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FindRupeeCount")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
