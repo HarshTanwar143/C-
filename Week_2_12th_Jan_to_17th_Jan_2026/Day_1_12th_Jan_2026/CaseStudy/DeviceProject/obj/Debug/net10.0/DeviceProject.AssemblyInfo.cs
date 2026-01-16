@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DeviceProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0eb17c6b986e4e769e5bb0cce055195023afca1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5f13ff73c0ab01e36fd3685b5009d839c02ead0")]
 [assembly: System.Reflection.AssemblyProductAttribute("DeviceProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DeviceProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

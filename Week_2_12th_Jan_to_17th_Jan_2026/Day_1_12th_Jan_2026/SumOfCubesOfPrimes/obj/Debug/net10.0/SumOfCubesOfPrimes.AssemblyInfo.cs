@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SumOfCubesOfPrimes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5f13ff73c0ab01e36fd3685b5009d839c02ead0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SumOfCubesOfPrimes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SumOfCubesOfPrimes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
